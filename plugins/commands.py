@@ -11,11 +11,11 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'ZauteKm'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""Salam! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+💡 ** Mən Aze Font Style botuyam**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`Mən sənə müxtəlif stilli yazılar yaratmağa kömək edəcəm.İndi mənə mətn/yazı göndər və biraz sehr seyr et.`
 
 **👲 Maintained By:** ▷ {owner.mention(style='md')}
 """
@@ -23,12 +23,12 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('👥 Qrup', url=f"https://t.me/jlbchat"),
+            InlineKeyboardButton('Kanal 📢', url=f"https://t.me/jlbots")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://githup.com/ZauteKm")
+            InlineKeyboardButton('❤️ Reklam', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/jlbots"),
+            InlineKeyboardButton('GitHub 🤣', url=f"https://github.com/joshgyn")
             ],[
             InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
         ]
