@@ -13,7 +13,7 @@ async def start(c, m):
     # start text
     text = f"""Salam! {m.from_user.mention(style='md')},
 
-💡 ** Mən Aze Font Style botuyam**
+💡 ** Mən Aze Style botam**
 
 `Mən sənə müxtəlif stilli yazılar yaratmağa kömək edəcəm.İndi mənə mətn/yazı göndər və biraz sehr seyr et.`
 
