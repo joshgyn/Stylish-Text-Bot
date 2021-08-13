@@ -17,7 +17,7 @@ async def start(c, m):
 
 `Mən sənə müxtəlif stilli yazılar yaratmağa kömək edəcəm.İndi mənə mətn/yazı göndər və biraz sehr seyr et.`
 
-**👲 Maintained By:** ▷ {owner.mention(style='md')}
+**Sahib👩‍💻:** ▷ {owner.mention(style='md')}
 """
 
     # Buttons
@@ -30,8 +30,7 @@ async def start(c, m):
             InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/jlbots"),
             InlineKeyboardButton('GitHub', url=f"https://github.com/joshgyn")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
-        ]
+           
     ]
     await m.reply_text(
         text=text,
