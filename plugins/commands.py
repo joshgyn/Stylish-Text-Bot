@@ -27,7 +27,7 @@ async def start(c, m):
             InlineKeyboardButton('Kanal 📢', url=f"https://t.me/jlbots")
             ],[
             InlineKeyboardButton('❤️ Reklam', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/jlbots"),
+            InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/mrjeluxe/9"),
             InlineKeyboardButton('GitHub', url=f"https://github.com/joshgyn")
             ],[
            
