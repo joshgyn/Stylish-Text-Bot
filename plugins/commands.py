@@ -28,7 +28,7 @@ async def start(c, m):
             ],[
             InlineKeyboardButton('❤️ Reklam', url=f"https://t.me/{owner_username}"),
             InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/jlbots"),
-            InlineKeyboardButton('GitHub 🤣', url=f"https://github.com/joshgyn")
+            InlineKeyboardButton('GitHub', url=f"https://github.com/joshgyn")
             ],[
             InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
         ]
@@ -108,7 +108,7 @@ async def nxt(c, m):
             InlineKeyboardButton('S̶t̶r̶i̶k̶e̶', callback_data='style+strike'),
             InlineKeyboardButton('F༙r༙o༙z༙e༙n༙', callback_data='style+frozen')
             ],[
-            InlineKeyboardButton('⬅️ Back', callback_data='nxt+0')
+            InlineKeyboardButton('⬅️ Geri', callback_data='nxt+0')
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
