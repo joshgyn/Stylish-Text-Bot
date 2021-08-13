@@ -29,9 +29,10 @@ async def start(c, m):
             InlineKeyboardButton('❤️ Reklam', url=f"https://t.me/{owner_username}"),
             InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/mrjeluxe/9"),
             InlineKeyboardButton('GitHub', url=f"https://github.com/joshgyn")
-            ],
-           
-    
+            ],[
+            InlineKeyboardButton('İnstagram', url=f"https://Instagram.com/coshgyn")
+        ]
+    ]
     await m.reply_text(
         text=text,
         reply_markup=InlineKeyboardMarkup(buttons)
