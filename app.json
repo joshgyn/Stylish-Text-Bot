@@ -1,34 +1,34 @@
 {
   "name": "Stylish Text",
-  "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
+  "description": "Müxtəlif fontlu yazılar yaratmağa kömək edən bot.Səndə elə indi öz botunu yarat.",
   "keywords": [
     "telegram",
     "best",
     "StylishText"
   ],
   "logo": "https://telegra.ph/file/8f7067fd24710cebfaa23.jpg",
-  "success_url": "https://telegram.dog/StylishText_zKbot",
-  "website": "https://github.com/ZauteKm/Stylish-Text-Bot",
-  "repository": "https://github.com/ZauteKm/Stylish-Text-Bot",
+  "success_url": "https://telegram.dog/Jlbots",
+  "website": "https://github.com/joshgyn/Stylish-Text-Bot",
+  "repository": "https://github.com/joshgyn/Stylish-Text-Bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
     "BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
+      "description": "@BotFather-dən aldığın bot tokeni",
       "value": ""
     },
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "Bunu https://my.telegram.org-dan ala bilərsən",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "give your telegram user id here",
-      "value": "1684438752"
+      "description": "Sənin telegram İD-in",
+      "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "Bunu https://my.telegram.org-dan ala bilərsən",
       "value": ""
     }
   },
