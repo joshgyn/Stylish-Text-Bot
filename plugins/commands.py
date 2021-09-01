@@ -23,8 +23,8 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Qrup', url=f"https://t.me/jlbchat"),
-            InlineKeyboardButton('Kanal 📢', url=f"https://t.me/jlbots")
+            InlineKeyboardButton('👥 Qrup', url=f"https://t.me/Epicsup"),
+            InlineKeyboardButton('Kanal 📢', url=f"https://t.me/EpicProjects")
             ],[
             InlineKeyboardButton('❤️ Reklam', url=f"https://t.me/{owner_username}"),
             InlineKeyboardButton('Botlar 🤖', url=f"https://t.me/mrjeluxe/9")
@@ -68,7 +68,7 @@ async def style_buttons(c, m, cb=False):
         InlineKeyboardButton('H̆̈ă̈p̆̈p̆̈y̆̈', callback_data='style+happy'),
         InlineKeyboardButton('S̑̈ȃ̈d̑̈', callback_data='style+sad'),
         ],[
-        InlineKeyboardButton('Next ➡️', callback_data="nxt")
+        InlineKeyboardButton('Növbəti ➡️', callback_data="nxt")
     ]]
     if not cb:
         await m.reply_text(m.text, reply_markup=InlineKeyboardMarkup(buttons), quote=True)
